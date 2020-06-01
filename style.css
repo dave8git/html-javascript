@@ -1,0 +1,95 @@
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container { 
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: 2px solid green; */
+}
+
+body {
+    margin: 0; 
+    text-align: center; 
+    background: #fff; 
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+section {
+    padding: 108px 0;
+}
+
+/* Splash */
+
+.splash {
+    height: 100vh; 
+    position: relative; 
+    background-image: url(https://i.postimg.cc/4Nnncjvf/grass-field-3563888-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.splash i {
+    font-size: 30px; 
+    background: #fdcb6e;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.page-title {
+    color: #fff;
+    font-size: 60px;
+    margin: 48px 0 0 0;
+    position: relative;
+}
+
+.page-title::after {
+    position: absolute;
+    content: '';
+    bottom: -24px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    transform: translateX(-50%);
+    background: #fdcb6e;
+}
+
+.page-subtitle {
+    margin: 48px 0 0 0; 
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Splash */
+
+.intro {
+    background: #fff;
+}
+.intro p {
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 48px 0;
+    font-size: 24px;
+    border-top: 1px solid #fdcb6e;
+    border-bottom: 1px solid #fdcb6e;
+}
+
+/* About */
